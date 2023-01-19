@@ -3,7 +3,7 @@ This should be updated automatically within about 10 mins of a new update pushed
 
 the units.json is filtered for obtainable === true and obtainableTime === '0' (this should be player obtainable units)
 
-the units_pve is filtered for obtainable !== true and obtainableTime !== '0' (this should be player pve units)
+the units_pve is filtered for obtainable !== true or obtainableTime !== '0' (this should be pve units)
 
 the version.json is only updated with the current game and locale version if all files where uploaded successfully. 
 
