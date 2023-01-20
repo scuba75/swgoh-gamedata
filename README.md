@@ -36,3 +36,6 @@ below is an example:
 }
 ```
 the download_url can be used with an api call to get the file contents
+
+Please read about the rate limits here:
+https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28#rate-limiting
