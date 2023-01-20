@@ -1,6 +1,9 @@
 # swgoh-gamedata
 This should be updated automatically within about 10 mins of a new update pushed for the game
-
+all the collections are structured as 
+```
+{version: 'CURRENT_VERSION', data: []}
+```
 the units.json is filtered for obtainable === true and obtainableTime === '0' (this should be player obtainable units)
 
 the units_pve is filtered for obtainable !== true or obtainableTime !== '0' (this should be pve units)
